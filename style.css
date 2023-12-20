@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sawarabi Gothic";
+}
+
+.alice {
+  height: 100vh;
+  width: 100%;
+  background-color: #2c2a2afe;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span{
+  color: #C0D5DB;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  color: #C0D5DB;
+}
+
+.btn {
+  background-color: #C0D5DB;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  border-radius: 20px;
+}
+
+.content {
+  padding-top: 120px;
+}
+
+.content .body {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.content .body img {
+  width: 350px;
+  height: 350px;
+  margin-top: -50px;
+}
+
+h1 {
+  color: white;
+  margin: 10px 0 10px;
+  font-size: 75px;
+}
+
+h3{
+  color: white;
+  font-size: 25px;
+}
+
+h4 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
